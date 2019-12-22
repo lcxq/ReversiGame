@@ -344,7 +344,6 @@ var board_score : Array<Array<number>> = board_score_init(dimension);
 print_board(dimension, board);
 var nowplay : string = "";
 const start_time :number = Date.parse(new Date().toString());
-const date_formate : string = formatDate();
 var humangaveup : boolean = false;
 if (pc_plays == "X") {
     nowplay = pc_plays;
